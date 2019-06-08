@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+run: python3 fast2sms.py
