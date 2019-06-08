@@ -21,7 +21,7 @@ data = get_data()
 msg = "Data remaining: " + data + " GB"
 
 url = "https://www.fast2sms.com/dev/bulk"
-payload = "sender_id=FSTSMS&message=" + msg + "&language=english&route=p&numbers=8340238900,7821915962"
+payload = "sender_id=FSTSMS&message=" + msg + "&language=english&route=p&numbers=8340238900,7821915962&flash=1"
 
 headers = {
     'authorization': config.api,
